@@ -39,3 +39,23 @@ Realiza um versionamento, salva as mudanças do repositório local.
 Define o local para que o projeto possa ser enviado para o GitHub. Apenas define o link, mas não realiza o envio em si. O "origin" serve apenas como um apelido (alias).
 
 `git remote add origin https://github.com/nome-repo`
+
+
+
+## git push
+
+Envia o projeto para a nuvem na branch especificada.
+
+`git push -u origin main`
+
+Envia a atualização das modificações.
+
+`git push`
+
+
+
+## git pull
+
+Puxa o projeto da nuvem para o repositório local.
+
+`git pull`
